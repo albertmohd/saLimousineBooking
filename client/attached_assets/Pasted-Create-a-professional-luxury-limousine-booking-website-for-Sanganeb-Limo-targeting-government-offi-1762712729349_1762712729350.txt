@@ -1,0 +1,200 @@
+Create a professional, luxury limousine booking website for Sanganeb Limo, targeting government officials, corporate executives, NGOs, and VIP clients. The website should exude sophistication and reliability while providing seamless booking functionality.
+Branding:
+
+Company Name: Sanganeb Limo
+Logo: [User will provide - ensure logo is prominently displayed in header and footer]
+Tagline: "Discreet, Professional Chauffeur Services for Distinguished Clients"
+
+Design Requirements:
+
+Color Scheme: Deep charcoal (#2C2C2C) with gold accents (#D4AF37) for luxury appeal, and white (#FFFFFF) for contrast
+Typography: Modern sans-serif font (Montserrat or similar) for headings, elegant serif (Merriweather or similar) for body text
+Style: Clean, minimalist, professional with generous white space
+Layout: Mobile-first responsive design that works flawlessly on all devices
+Visual Elements:
+
+Full-width hero section with professional car images
+Sanganeb Limo logo in navigation header (left side)
+Subtle hover animations and smooth transitions
+High-quality placeholder images of luxury vehicles (sedans, SUVs, limousines)
+Sticky navigation header with logo and "Book Now" CTA
+
+
+
+Core Features & Pages:
+1. Homepage:
+
+Hero section with compelling headline: "Welcome to Sanganeb Limo - Elite Transportation for Distinguished Clients"
+Subheadline: "Serving Government Officials, Corporate Executives, and VIP Clients with Discretion and Excellence"
+Prominent booking form (pickup location, drop-off location, date/time, vehicle selection)
+Trust indicators: "24/7 Service", "Licensed & Insured", "Professional Chauffeurs", "Government Approved"
+Featured fleet preview with 4-6 vehicle categories
+Client testimonials section (placeholder quotes from corporate clients, government agencies)
+Corporate partnership logos placeholder
+Why Choose Sanganeb Limo section with key differentiators
+
+2. Fleet Page:
+
+Page title: "The Sanganeb Limo Fleet"
+Showcase luxury vehicles with categories:
+
+Executive Sedans (Mercedes S-Class, BMW 7-Series, Audi A8)
+Luxury SUVs (Cadillac Escalade, Range Rover, Mercedes GLS)
+Stretch Limousines
+Executive Vans (Mercedes Sprinter for groups)
+
+
+Each vehicle card should include:
+
+High-quality image
+Passenger capacity
+Key amenities (leather seats, Wi-Fi, privacy partition, refreshments, phone chargers)
+"Check Availability" button
+Hourly and full-day pricing (or "Request Quote")
+
+
+
+3. Services Page:
+
+Corporate Transportation: Executive meetings, roadshows, multi-day corporate events
+Government & Diplomatic Services: Secure, discreet transportation for officials and delegations
+NGO & International Organization Services: Reliable transport for missions and conferences
+Airport Transfers: Meet & greet service, flight monitoring
+Special Events: Galas, conferences, award ceremonies
+Multi-day Charters: Extended bookings with dedicated vehicles
+
+4. About Sanganeb Limo Page:
+
+Company story emphasizing trust, reliability, and VIP service
+Our commitment to discretion and professionalism
+Chauffeur training and vetting process
+Fleet maintenance standards
+Awards/certifications (placeholder)
+
+5. Booking System:
+Create an interactive booking form with these fields:
+
+Service type (dropdown: Airport Transfer, Corporate Event, Government Service, Special Event, Multi-day Charter)
+Vehicle selection (dropdown with images)
+Pickup location (text input with placeholder for address)
+Drop-off location (text input)
+Date picker (block past dates)
+Time picker
+Passenger count
+Special requests (textarea: "Security requirements, special amenities, etc.")
+Contact information fields:
+
+Full Name
+Organization/Agency
+Email
+Phone Number
+Preferred Contact Method (Email/WhatsApp/Phone)
+
+
+Terms & conditions checkbox
+
+6. Contact Page:
+
+"Get in Touch with Sanganeb Limo"
+Contact form
+Phone number (clickable for mobile)
+Email address: info@sanganeblimo.com (placeholder)
+WhatsApp button with pre-filled message: "Hello, I would like to inquire about Sanganeb Limo's chauffeur services"
+Business hours: "Available 24/7 for Your Convenience"
+Office address placeholder
+"For urgent bookings, please call or WhatsApp us directly"
+
+Technical Requirements:
+Email Notifications:
+When a booking is submitted, automatically send an email to the manager/admin containing:
+
+Subject: "New Booking Request - Sanganeb Limo"
+Customer name, organization, contact info
+Booking details (service type, date, time, locations, vehicle selected)
+Passenger count
+Special requests
+Timestamp
+Use Formspree, EmailJS, or Web3Forms for email functionality
+
+WhatsApp Integration:
+
+Add WhatsApp floating button (bottom right corner) with Sanganeb Limo branding
+On booking submission, provide option to "Send booking details via WhatsApp"
+WhatsApp link format: https://wa.me/[PHONE_NUMBER]?text=Booking%20Request%20for%20Sanganeb%20Limo%0A[BOOKING_DETAILS]
+Include WhatsApp icon in contact information
+
+Form Handling:
+
+Use a free service like Formspree, Web3Forms, or EmailJS for form submissions
+Show success message: "Thank you for choosing Sanganeb Limo! We'll contact you shortly to confirm your booking."
+Show error messages for validation failures
+Form validation for all required fields
+Phone number validation
+
+Additional Features:
+
+FAQ section with common questions:
+
+How far in advance should I book?
+Do you offer airport meet & greet?
+Are your chauffeurs background-checked?
+Do you have security-cleared drivers for government officials?
+What's your cancellation policy?
+Do you offer corporate accounts?
+
+
+Privacy policy and terms of service pages (emphasizing confidentiality for VIP clients)
+Social media links in footer (LinkedIn, Facebook, Instagram placeholders)
+Google Maps integration for office location (optional)
+Live chat widget placeholder
+"Request a Quote" option for custom services
+
+Content Guidelines:
+Generate professional, persuasive copy that emphasizes:
+
+Discretion and confidentiality - especially for government and diplomatic clients
+Punctuality and reliability (essential for official functions)
+Experienced, background-checked, professional chauffeurs
+Immaculate, late-model luxury vehicles
+24/7 availability for urgent needs
+Flexible payment options and corporate invoicing
+Corporate account capabilities with monthly billing
+Multi-lingual chauffeurs available
+Security protocols for VIP clients
+Compliance with government transportation standards
+
+Technical Stack:
+
+Use modern HTML5, CSS3, and vanilla JavaScript
+Make it fully responsive using CSS Grid and Flexbox
+Include smooth scroll animations
+Optimize for fast loading
+Add meta tags for SEO (keywords: luxury limousine, executive transportation, government chauffeur service, VIP transport)
+Include Open Graph tags for social media sharing
+
+Key Pages Structure:
+
+Home
+Our Fleet
+Services
+About Sanganeb Limo
+Book Now
+Contact
+FAQ
+
+Header Navigation:
+
+Sanganeb Limo logo (left)
+Home | Fleet | Services | About | Contact
+"Book Now" button (right side, prominent gold/accent color)
+
+Footer:
+
+Sanganeb Limo logo
+Quick links to all pages
+Contact information
+Social media icons
+"Available 24/7 for Your Transportation Needs"
+Copyright: © 2024 Sanganeb Limo. All rights reserved.
+
+Please create a fully functional, production-ready website with professional, compelling placeholder content. Ensure all forms work, all links are functional, and the booking system sends notifications via email and WhatsApp. The design should reflect the premium, trustworthy nature of Sanganeb Limo's services to government officials, corporate executives, and VIP clients.
