@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Facebook, Instagram, Linkedin, Mail, Phone } from "lucide-react";
-import logoImage from "@assets/photo_2025-11-09_19-25-55_1762712767420.jpg";
+
 
 export default function Footer() {
   const quickLinks = [
@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <img src={logoImage} alt="Sanganeb Limo" className="h-12 w-12 rounded-md" />
+              <div className="h-12 w-12 rounded-md bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl">S</div>
               <div>
                 <div className="font-sans font-semibold text-lg text-foreground">SANGANEB</div>
                 <div className="font-sans text-xs text-primary tracking-widest">LIMOUSINE</div>
