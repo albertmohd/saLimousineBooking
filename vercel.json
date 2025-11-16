@@ -22,8 +22,5 @@
         }
       ]
     }
-  ],
-  "includeFiles": [
-    "attached_assets/**"
   ]
 }
