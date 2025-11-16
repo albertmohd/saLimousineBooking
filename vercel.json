@@ -1,5 +1,5 @@
 {
-  "buildCommand": "vite build --root client --outDir ../dist/public --emptyOutDir",
+  "buildCommand": "vite build client",
   "outputDirectory": "dist/public",
   "rewrites": [
     { "source": "/((?!api/).*)", "destination": "/index.html" }
