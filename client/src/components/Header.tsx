@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logoImage from "@assets/photo_2025-11-09_19-25-55_1762712767420.jpg";
+
 
 export default function Header() {
   const [location] = useLocation();
@@ -22,7 +22,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-3 hover-elevate active-elevate-2 rounded-md px-2 py-1 -ml-2" data-testid="link-home">
-            <img src={logoImage} alt="Sanganeb Limo" className="h-12 w-12 rounded-md" />
+            <div className="h-12 w-12 rounded-md bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl">S</div>
             <div className="hidden sm:block">
               <div className="font-sans font-semibold text-lg text-foreground">SANGANEB</div>
               <div className="font-sans text-xs text-primary tracking-widest">LIMOUSINE</div>
